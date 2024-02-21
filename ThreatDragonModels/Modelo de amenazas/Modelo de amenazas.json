@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Modelo de amenazas",
+    "owner": "Alejandro Sánchez Marín",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "Guillermo Humberto Vera Amaro",
+    "threatTop": 0
+  }
+}
