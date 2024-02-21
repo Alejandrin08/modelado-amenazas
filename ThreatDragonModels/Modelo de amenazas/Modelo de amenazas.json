@@ -38,8 +38,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "4903cfbc-8959-4e91-b21d-dd2afc39154e",
             "zIndex": 1,
+            "id": "4903cfbc-8959-4e91-b21d-dd2afc39154e",
             "data": {
               "type": "tm.Actor",
               "name": "Usuarios",
@@ -112,6 +112,9 @@
               ]
             },
             "id": "66ce2789-3943-4b98-b54e-8fa0544ac2f2",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "058dfa4f-0ee1-451a-b180-d239b1b224bb"
             },
@@ -127,9 +130,6 @@
                 "x": -1180,
                 "y": -1050
               }
-            ],
-            "labels": [
-              "Web Response"
             ]
           },
           {
@@ -146,6 +146,9 @@
               "hasOpenThreats": false
             },
             "id": "293f89f2-9041-4e05-ab6e-f90e6398c43d",
+            "labels": [
+              "Usuario/Web server límite"
+            ],
             "source": {
               "x": -1250,
               "y": -1190
@@ -163,9 +166,6 @@
                 "x": -870,
                 "y": -1110
               }
-            ],
-            "labels": [
-              "Usuario/Web server límite"
             ]
           },
           {
@@ -189,8 +189,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "db8d5150-5df2-40c8-a1fd-c039d59528d1",
             "zIndex": 11,
+            "id": "db8d5150-5df2-40c8-a1fd-c039d59528d1",
             "data": {
               "type": "tm.Actor",
               "name": "Bibliotecario ",
@@ -237,8 +237,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "058dfa4f-0ee1-451a-b180-d239b1b224bb",
             "zIndex": 13,
+            "id": "058dfa4f-0ee1-451a-b180-d239b1b224bb",
             "data": {
               "type": "tm.Process",
               "name": "Sitio web biblioteca",
