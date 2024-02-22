@@ -112,6 +112,9 @@
               ]
             },
             "id": "23f054ac-9e0f-410a-80c8-f04d7d227647",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "cell": "4903cfbc-8959-4e91-b21d-dd2afc39154e"
             },
@@ -123,9 +126,6 @@
                 "x": -1121.96,
                 "y": -1030
               }
-            ],
-            "labels": [
-              "Web Request"
             ]
           },
           {
@@ -175,6 +175,9 @@
               ]
             },
             "id": "c308ac23-b83e-440f-b523-f738f3517fc7",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "058dfa4f-0ee1-451a-b180-d239b1b224bb"
             },
@@ -190,9 +193,6 @@
                 "x": -932.75,
                 "y": -1090
               }
-            ],
-            "labels": [
-              "Web Response"
             ]
           },
           {
@@ -241,6 +241,9 @@
               ]
             },
             "id": "870e7bc6-35fa-40ca-bf29-7e681ef7a8b7",
+            "labels": [
+              "Resultados\nWeb App Query"
+            ],
             "source": {
               "cell": "a53a75ab-6e25-43d2-b43e-e8170473bdd8"
             },
@@ -252,9 +255,6 @@
                 "x": -910,
                 "y": -920
               }
-            ],
-            "labels": [
-              "Resultados\nWeb App Query"
             ]
           },
           {
@@ -271,6 +271,9 @@
               "hasOpenThreats": false
             },
             "id": "bd06d6f3-97a3-4da1-a34d-dc6d4d5e63f2",
+            "labels": [
+              "Límite \nWeb server/Db"
+            ],
             "source": {
               "x": -800,
               "y": -970
@@ -284,9 +287,6 @@
                 "x": -870,
                 "y": -860
               }
-            ],
-            "labels": [
-              "Límite \nWeb server/Db"
             ]
           },
           {
@@ -321,16 +321,16 @@
               "threats": []
             },
             "id": "a7eb0d35-b146-4bb4-b355-ac950181acfb",
+            "labels": [
+              "Páginas"
+            ],
             "source": {
               "cell": "074afc1b-1d52-4881-b05e-00fe6058af76"
             },
             "target": {
               "cell": "058dfa4f-0ee1-451a-b180-d239b1b224bb"
             },
-            "vertices": [],
-            "labels": [
-              "Páginas"
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -364,15 +364,15 @@
               "threats": []
             },
             "id": "84cdb872-150d-40f8-a635-b72e8dd4163f",
+            "labels": [
+              "Lee web\napp config"
+            ],
             "source": {
               "cell": "de141d77-bb17-4551-81ae-fd514d269ca1"
             },
             "target": {
               "cell": "058dfa4f-0ee1-451a-b180-d239b1b224bb"
-            },
-            "labels": [
-              "Lee web\napp config"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -487,6 +487,9 @@
               ]
             },
             "id": "77c9395e-a8a3-42b1-aab9-8f4649cf925e",
+            "labels": [
+              "Queries"
+            ],
             "source": {
               "cell": "058dfa4f-0ee1-451a-b180-d239b1b224bb"
             },
@@ -498,9 +501,6 @@
                 "x": -990,
                 "y": -850
               }
-            ],
-            "labels": [
-              "Queries"
             ]
           },
           {
@@ -586,6 +586,9 @@
               ]
             },
             "id": "2b4e1092-b493-4426-b09a-17c78ca19b48",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "x": -890,
               "y": -1130
@@ -602,9 +605,6 @@
                 "x": -880,
                 "y": -1000
               }
-            ],
-            "labels": [
-              "Web Request"
             ]
           },
           {
@@ -732,8 +732,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "a53a75ab-6e25-43d2-b43e-e8170473bdd8",
             "zIndex": 14,
+            "id": "a53a75ab-6e25-43d2-b43e-e8170473bdd8",
             "data": {
               "type": "tm.Store",
               "name": "Base de datos",
@@ -800,8 +800,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "074afc1b-1d52-4881-b05e-00fe6058af76",
             "zIndex": 15,
+            "id": "074afc1b-1d52-4881-b05e-00fe6058af76",
             "data": {
               "type": "tm.Store",
               "name": "Páginas web \nen disco",
@@ -857,8 +857,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "de141d77-bb17-4551-81ae-fd514d269ca1",
             "zIndex": 16,
+            "id": "de141d77-bb17-4551-81ae-fd514d269ca1",
             "data": {
               "type": "tm.Store",
               "name": "Web Application Config",
